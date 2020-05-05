@@ -1,0 +1,9 @@
+.text-color {
+  color: red;
+  background-color: blue;
+}
+
+#color-yellow {
+  color: yellow;
+  font-size: 26px;
+}
