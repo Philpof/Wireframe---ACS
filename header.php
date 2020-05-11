@@ -11,32 +11,25 @@
 </head>
 
 <body>
-  <!-- Code de "navbar" pris sur bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" target="_blank" href="https://www.accesscodeschool.fr/"><img src="xxxx" alt="Logo Navbar" id="logo-navbar"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="xxxx">Accueil <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="xxxx">1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="xxxx">2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="xxxx">3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="xxxx">4</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="xxxx">5</a>
-        </li>
-      </ul>
+  <div id="header" class="vh-100">
+
+    <div class="icon-bar">
+      <a href="#section1">1</a>
+      <a href="#section2">2</a>
+      <a href="#section3">3</a>
+      <a href="#section4">4</a>
     </div>
-  </nav>
+
+  </div>
+<div id="section1" class="vh-100">
+
+</div>
+<div id="section2" class="vh-100">
+
+</div>
+<div id="section3" class="vh-100">
+
+</div>
+<div id="section4" class="vh-100">
+
+</div>
