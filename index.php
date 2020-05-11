@@ -1,32 +1,53 @@
 <?php include "header.php";?>
 
-  <div class="container">
 
+<body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--
-    <p class="text-color">Salut !<br>Je suis Philippe</p>
-
-    <p>Ceci est <span class="text-color">mon</span> <a href="Philippe.html">site perso</a> !</p>
-
-    <p>Lorem ipsum dolor sit amet, <span class="text-color" id="color-yellow">consectetur</span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est
-      laborum.</p>
-    -->
+<!-- Le header est-il vraiment utile ici ?
+  <div id="header" class="vh-100">
+    <div class="icon-bar">
+      <a href="#section1">1</a>
+      <a href="#section2">2</a>
+      <a href="#section3">3</a>
+      <a href="#section4">4</a>
+    </div>
   </div>
+-->
+
+<div id="section1" class="vh-100">
+  <div class="icon-bar">
+    <a href="#section1">1</a>
+    <a href="#section2">2</a>
+    <a href="#section3">3</a>
+    <a href="#section4">4</a>
+  </div>
+</div>
+
+
+<div id="section2" class="vh-100">
+
+</div>
+
+
+<div id="section3" class="vh-100">
+  <div class="icon-bar">
+    <a href="#section1">1</a>
+    <a href="#section2">2</a>
+    <a href="#section3">3</a>
+    <a href="#section4">4</a>
+  </div>
+</div>
+
+
+<div class="row">
+
+</div>
+
+
+<div id="section4" class="vh-100">
+
+</div>
+
 
 
 

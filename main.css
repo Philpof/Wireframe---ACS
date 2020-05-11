@@ -2,16 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #222222;
 }
 
-#header{
+/* ----- A supprimer si le header dans index n'est pas utile ----- */
+#header {
+  display: flex;
   margin:0;
   padding:0;
   background: url("img/faun_template_Photo_TOP.png") no-repeat center fixed;
-  -webkit-background-size: cover;
-  background-size: cover; /* version standardisée */
+  background-size: cover;
 }
 
 /* ----- Vertical Nav ----- */
@@ -29,12 +30,9 @@ body{
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: auto;
 }
 
-#header {
-  display: flex;
-}
 .icon-bar {
   margin-top: auto;
   margin-bottom: auto;
@@ -42,6 +40,30 @@ body{
 }
 
 /* ----- Sections ----- */
-#section1{
-  background-color: red;
+#section1 {
+  display: flex;
+  margin:0;
+  padding:0;
+  background-image: url("img/faun_template_BG_TOP.png"), url("img/faun_template_Photo_TOP.png");
+  background-size: cover;
+  background-position: center fixed;
+  background-repeat: no-repeat;
+}
+#section2{
+  background-color: #fefefe;
+}
+#section3{
+  display: flex;
+  margin:0;
+  padding:0;
+  background: url("img/faun_template_Main photo BG_VIDEO.png");
+  background-size: cover;
+  background-position: center fixed;
+  background-repeat: no-repeat;
+}
+#section4{
+  margin:0;
+  padding:0;
+  background: url("img/faun_template_Photo_BOTTOM.png") no-repeat center fixed;
+  background-size: cover;
 }
