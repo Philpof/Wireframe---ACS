@@ -17,26 +17,27 @@ body {
 
 /* ----- Vertical Nav ----- */
 .icon-bar {
-  width: 90px;
+  width: 400px;
 }
 
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 32px;
   transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
+  color: #717171;
+  font-size: 18px;
 }
 
 .icon-bar a:hover {
   background-color: auto;
+  color: #fefefe;
 }
 
 .icon-bar {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 10vw;
+  margin-left: 2vw;
 }
 
 /* ----- Sections ----- */
@@ -48,7 +49,7 @@ body {
   background-size: cover;
   background-position: center fixed;
   background-repeat: no-repeat;
-}
+  }
 #section2{
   background-color: #fefefe;
 }
@@ -66,4 +67,9 @@ body {
   padding:0;
   background: url("img/faun_template_Photo_BOTTOM.png") no-repeat center fixed;
   background-size: cover;
+}
+
+.ContainerNoWay {
+text-align: center;
+margin-top: 10rem;
 }
