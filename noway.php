@@ -1,6 +1,6 @@
 <?php include "header.php";?>
 
-<div class="ContainerNoWay">
+<div class="containerNoWay">
   <h1>Page en construction</h1>
   <p>Merci de bien vouloir revenir plus tard</p>
   <p>Cliquez sur l'image ci-dessous pour revenir au menu principal</p>

@@ -6,6 +6,7 @@ body {
   background-color: #222222;
 }
 
+
 /* ----- A supprimer si le header dans index n'est pas utile ----- */
 #header {
   display: flex;
@@ -24,14 +25,14 @@ body {
   display: block;
   text-align: center;
   padding: 32px;
-  transition: all 0.3s ease;
-  color: #717171;
+  transition: all 0.5s ease;
+  color: #757575;
   font-size: 18px;
 }
 
 .icon-bar a:hover {
   background-color: auto;
-  color: #fefefe;
+  color: #ffffff;
 }
 
 .icon-bar {
@@ -50,10 +51,11 @@ body {
   background-position: center fixed;
   background-repeat: no-repeat;
   }
-#section2{
+#section2 {
+  display: flex;
   background-color: #fefefe;
 }
-#section3{
+#section3 {
   display: flex;
   margin:0;
   padding:0;
@@ -62,14 +64,97 @@ body {
   background-position: center fixed;
   background-repeat: no-repeat;
 }
-#section4{
+#section4 {
+  display: flex;
+  flex-direction: column;
   margin:0;
   padding:0;
   background: url("img/faun_template_Photo_BOTTOM.png") no-repeat center fixed;
   background-size: cover;
+  background-position: center fixed;
+  background-repeat: no-repeat;
 }
 
-.ContainerNoWay {
-text-align: center;
-margin-top: 10rem;
+
+/* ----- Section n°4 ----- */
+#BandeauPhotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  }
+
+.photos {
+  border-top: solid 3px #ec1e33;
+  max-width: 600px;
+}
+
+.wantTo {
+  font-family: sans-serif;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  transform: scale(1, 1.4);
+  color: #fefefe
+}
+
+.lorem {
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: inherit;
+  transform: scale(1, 1.4);
+  color: #999999;
+}
+
+.contactUs {
+  font-family: sans-serif;
+  border: 30px;
+  border-color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  word-spacing: 8px;
+  transform: scale(1, 1.4);
+  margin: 50px;
+}
+
+/* ----- Footer ----- */
+.footer {
+  font-family: sans-serif;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  line-height: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  transform: scale(1, 1.4);
+}
+
+.faun {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.allRights {
+  color: #444444;
+  font-size: 25px;
+}
+
+/* ----- Page "Noway" pour tester les liens ----- */
+.containerNoWay {
+  background-color: #fefefe;
+  color: black;
+  text-align: center;
+  margin-top: 10rem;
 }
