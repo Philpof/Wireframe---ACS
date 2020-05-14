@@ -7,7 +7,7 @@ body {
 }
 
 
-/* ----- A supprimer si le header dans index n'est pas utile ----- */
+/* ----- A supprimer si le header dans index n'est pas utile
 #header {
   display: flex;
   margin:0;
@@ -15,6 +15,7 @@ body {
   background: url("img/faun_template_Photo_TOP.png") no-repeat center fixed;
   background-size: cover;
 }
+ ----- */
 
 /* ----- Vertical Nav ----- */
 .icon-bar {
@@ -41,117 +42,179 @@ body {
   margin-left: 2vw;
 }
 
-/* ----- Sections ----- */
+/* ----- Section n°1 ----- */
 #section1 {
-  display: flex;
-  margin:0;
-  padding:0;
+
   background-image: url("img/faun_template_BG_TOP.png"), url("img/faun_template_Photo_TOP.png");
   background-size: cover;
   background-position: center fixed;
   background-repeat: no-repeat;
-  }
+}
+
+#musicMore {
+  font-family: 'Yu Gothic';
+  text-transform: uppercase;
+}
+
+#safe {
+  color: #999999;
+  font-size: 4rem;
+}
+
+#music {
+  font-weight: bold;
+  color: #ed1f34;
+  font-size: 10rem;
+  opacity: 0.6;
+}
+
+#high {
+  font-weight: bold;
+  color: #fefefe;
+  font-size: 5rem;
+}
+#viewMore {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -2px;
+  word-spacing: 8px;
+  margin: 30px;
+}
+
+/* ----- Section n°2 ----- */
 #section2 {
   display: flex;
   background-color: #fefefe;
 }
+
+/* ----- Section n°3 ----- */
 #section3 {
-  display: flex;
-  margin:0;
-  padding:0;
   background: url("img/faun_template_Main photo BG_VIDEO.png");
+  display: flex;
   background-size: cover;
   background-position: center fixed;
   background-repeat: no-repeat;
 }
+
+#play {
+  align-items: center;
+  position: relative;
+}
+
+.play img {
+  position: absolute;
+  top: 10;
+  right: 10;
+}
+
+.elipseL {
+  z-index: 1;
+}
+
+.elipseM {
+  z-index: 2;
+}
+
+.elipseS {
+  z-index: 3;
+}
+
+.elipsePlay {
+  z-index: 4;
+}
+
+#newest {
+  font-family: 'Yu Gothic';
+}
+
+  #video {
+    color: #ed1f34;
+    font-size: 4rem;
+    opacity: 0.65;
+  }
+
+  #lorem {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #999999;
+  }
+
+/* ----- Section n°4 ----- */
 #section4 {
   display: flex;
   flex-direction: column;
   margin:0;
   padding:0;
-  background: url("img/faun_template_Photo_BOTTOM.png") no-repeat center fixed;
+  background: url("img/faun_template_Photo_BOTTOM.png") center fixed;
   background-size: cover;
-  background-position: center fixed;
-  background-repeat: no-repeat;
 }
 
-
-/* ----- Section n°4 ----- */
-#BandeauPhotos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  #photos {
+    border-top: solid 3px #ed1f34;
   }
 
-.photos {
-  border-top: solid 3px #ec1e33;
-  max-width: 600px;
-}
+  .wantTo {
+    font-family: 'Yu Gothic';
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transform: scale(1, 1.4);
+    color: #fefefe
+  }
 
-.wantTo {
-  font-family: sans-serif;
-  padding-top: 80px;
-  padding-bottom: 40px;
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  transform: scale(1, 1.4);
-  color: #fefefe
-}
+  .loremm {
+    font-family: 'Yu Gothic';
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #999999;
+  }
 
-.lorem {
-  font-family: sans-serif;
-  padding-top: 20px;
-  padding-bottom: 80px;
-  font-size: 15px;
-  line-height: 30px;
-  text-align: center;
-  text-transform: inherit;
-  transform: scale(1, 1.4);
-  color: #999999;
-}
-
-.contactUs {
-  font-family: sans-serif;
-  border: 30px;
-  border-color: red;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  word-spacing: 8px;
-  transform: scale(1, 1.4);
-  margin: 50px;
-}
+  .contactUs {
+    font-family: 'Yu Gothic';
+    border: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    word-spacing: 8px;
+    margin: 20px;
+  }
 
 /* ----- Footer ----- */
-.footer {
-  font-family: sans-serif;
+#footer {
+  font-family: 'Yu Gothic';
   padding-top: 100px;
   padding-bottom: 80px;
-  line-height: 0px;
+  line-height: 1px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: -2px;
   transform: scale(1, 1.4);
 }
 
-.faun {
-  color: #fefefe;
-  font-weight: bold;
-  font-size: 30px;
+  .faun {
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 30px;
 
-}
+  }
 
-.allRights {
-  color: #444444;
-  font-size: 25px;
-}
+  .allRights {
+    color: #444444;
+    font-size: 25px;
+  }
 
-/* ----- Page "Noway" pour tester les liens ----- */
+/* ----- Page "noway" pour tester les liens ----- */
 .containerNoWay {
   background-color: #fefefe;
   color: black;
