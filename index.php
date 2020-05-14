@@ -14,18 +14,18 @@
 <!-- Section 1 -->
 <div id="section1" class="d-flex vh-100 container-fluid">
 
-  <div class="icon-bar col-3">
-    <a href="#section1">1</a>
-    <a href="#section2">2</a>
-    <a href="#section3">3</a>
-    <a href="#section4">4</a>
+  <div class="icon-bar col-3 d-flex flex-column">
+    <a href="#section1" class="effetBar">1</a>
+    <a href="#section2" class="effetBar">2</a>
+    <a href="#section3" class="effetBar">3</a>
+    <a href="#section4" class="effetBar">4</a>
   </div>
 
-  <div id="musicMore" class="container d-flex flex-column justify-content-center">
+  <div id="musicMore" class="container-fluid d-flex flex-column justify-content-center">
 
-      <p id="safe">a safe kind</p>
-      <p id="music">music is</p>
-      <p id="high">of high</p>
+    <p id="safe">a safe kind</p>
+    <p id="music">music is</p>
+    <p id="high">of high</p>
 
     <div class="d-flex">
       <a href="noway.php" type="button" class="btn btn-outline-light"><span id="viewMore">view more</span></a>
@@ -37,6 +37,7 @@
 
 <!-- Section 2 -->
 <div id="section2" class="d-flex vh-100 container-fluid">
+
 
 </div>
 
@@ -55,12 +56,15 @@
     <p id="lorem" class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
   </div>
 
-  <div class="icon-bar col-3">
-    <a href="#section1">1</a>
-    <a href="#section2">2</a>
-    <a href="#section3">3</a>
-    <a href="#section4">4</a>
+  <div class="icon-bar col-3 d-flex flex-column">
+    <a href="#section1" class="effetBar">1</a>
+    <a href="#section2" class="effetBar">2</a>
+    <a href="#section3" class="effetBar">3</a>
+    <a href="#section4" class="effetBar">4</a>
   </div>
+
+
+
 </div>
 
 <!-- Section 4 -->
