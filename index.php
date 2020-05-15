@@ -25,25 +25,35 @@
 </div>
 
 <!-- Section 2 -->
-<div id="section2" class="vh-100 container-fluid">
+<div id="section2" class="d-flex vh-100 container-fluid">
 
+  <div class="container d-flex flex-column justify-content-center col-sm-6 font-weight-bold">
+    <p id="aboutUs" class="text-uppercase">about us</p>
+    <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="d-flex">
+      <a href="noway.php" type="button" class="btn btn-outline-secondary text-uppercase font-weight-bold"><span id="checkOur">check our tour</span></a>
+    </div>
+  </div>
 
+  <div class="container d-flex flex-column justify-content-center col-sm-6 font-weight-bold">
+    <img src="img\faun_template_Photo_ABOUTUS.png" alt="Photo Concert" class="img-fluid">
+  </div>
 
 </div>
 
 <!-- Section 3 -->
 <div id="section3" class="d-flex vh-100 container-fluid">
 
-  <div id="player" class="container col-3 d-flex">
-    <img src="img/faun_template_ElipseL.png" alt="Elipse Large">
+  <div id="player" class="container col-4 d-flex justify-content-center">
+    <a href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img src="img/faun_template_Player.png" alt="Play" id="elipsePlay"></a>
+    <img src="img/faun_template_ElipseL.png" alt="Elipse Large" id="elipseL" class="">
     <img src="img/faun_template_ElipseM.png" alt="Elipse Medium" id="elipseM">
     <img src="img/faun_template_ElipseS.png" alt="Elips Small" id="elipseS">
-    <img src="img/faun_template_Player.png" alt="Play" id="elipsePlay">
   </div>
 
-  <div class="container d-flex flex-column justify-content-center font-weight-bold">
+  <div class="container d-flex col-5 flex-column justify-content-center font-weight-bold">
     <p id="video" class="text-uppercase ">our newest video</p>
-    <p id="lorem" class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
   </div>
 
   <div class="icon-bar col-3 d-flex flex-column">
@@ -81,7 +91,7 @@
     <p id="wantTo" class="text-uppercase text-center font-weight-bold">want to hire us ?</p>
     <p id="loremm" class="text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="d-flex justify-content-center">
-      <a href="noway.php" type="button" class="btn btn-outline-light"><span id="contactUs">contact with us</span></a>
+      <a href="noway.php" type="button" class="btn btn-outline-light font-weight-bold text-uppercase"><span id="contactUs">contact with us</span></a>
     </div>
   </div>
 
