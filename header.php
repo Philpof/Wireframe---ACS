@@ -13,16 +13,32 @@
 <body>
 
 <!-- Barre de navigation -->
-<div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
+<nav class="navbar navbar-light bg-auto justify-content-around fixed-top">
+
+  <div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img src="img\faun_template_3TRAITS.png" alt="Menu">
+    </button>
+    <div class="dropdown-menu"  >
+      <a class="dropdown-item" href="index.php#section1">Us</a>
+      <a class="dropdown-item" href="index.php#section2">Concerts</a>
+      <a class="dropdown-item" href="index.php#section3">Videos</a>
+      <a class="dropdown-item" href="index.php#section4">Contact</a>
     </div>
   </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+  <a href="index.php#section4" type="button" class="btn text-center font-weight-bold text-uppercase" id="faunNav">faun</a>
+
+  <div class="dropdown">
+    <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img src="img\faun_template_LOUPE.png" alt="Recherche">
     </button>
-  </nav>
-</div>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Seek and Destroy !" aria-label="Search">
+        <button class="btn btn-outline-light font-weight-bold my-2 my-sm-0" type="submit">Go !</button>
+      </form>
+    </div>
+  </div>
+
+</nav>

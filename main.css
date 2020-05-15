@@ -1,21 +1,28 @@
 html {
   scroll-behavior: smooth;
+  font-family: 'Yu Gothic';
 }
 
 body {
   background-color: #222222;
 }
 
-
-/* ----- A supprimer si le header dans index n'est pas utile
-#header {
-  display: flex;
-  margin:0;
-  padding:0;
-  background: url("img/faun_template_Photo_TOP.png") no-repeat center fixed;
-  background-size: cover;
+/* ----- NavBar ----- */
+.dropdown-menu {
+  background-color: inherit;
+  border: none;
 }
- ----- */
+
+.dropdown-item {
+  border-radius: 1rem;
+  color: #999999;
+}
+
+#faunNav {
+  color: #fefefe;
+  font-size: 30px;
+  transform: scale(1, 1.4);
+}
 
 /* ----- Vertical Nav ----- */
 .icon-bar {
@@ -35,7 +42,7 @@ body {
 
 .icon-bar a:hover {
   background-color: auto;
-  color: #ffffff; /* le chiffre change de couleur */
+  color: #fefefe; /* le chiffre change de couleur */
   text-decoration: none; /* enlève le trait sous le chiffre */
 }
 
@@ -56,7 +63,6 @@ body {
 
 /* ----- Section n°1 ----- */
 #section1 {
-
   background-image: url("img/faun_template_BG_TOP.png"), url("img/faun_template_Photo_TOP.png");
   background-size: cover;
   background-position: center fixed;
@@ -64,9 +70,7 @@ body {
 }
 
 #musicMore {
-  font-family: 'Yu Gothic';
-  text-transform: uppercase;
-  line-height: 5.5rem;
+  line-height: 5rem;
 }
 
 #safe {
@@ -75,21 +79,19 @@ body {
 }
 
 #music {
-  font-weight: bold;
   color: #ed1f34;
   font-size: 10rem;
   opacity: 0.6;
+  margin-left: -0.7rem;
 }
 
 #high {
-  font-weight: bold;
   color: #fefefe;
   font-size: 5rem;
+  padding-bottom: 6rem;
 }
 #viewMore {
   font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
   letter-spacing: -2px;
   word-spacing: 8px;
   margin: 30px;
@@ -97,103 +99,82 @@ body {
 
 /* ----- Section n°2 ----- */
 #section2 {
-  display: flex;
   background-color: #fefefe;
 }
 
 /* ----- Section n°3 ----- */
 #section3 {
   background: url("img/faun_template_Main photo BG_VIDEO.png");
-  display: flex;
   background-size: cover;
   background-position: center fixed;
   background-repeat: no-repeat;
 }
 
-#play {
+#player {
   align-items: center;
-  position: relative;
 }
 
-.play img {
-  position: absolute;
-  top: 10;
-  right: 10;
+#elipseM {
+  transform:translate(-8.6rem,0);
 }
 
-.elipseL {
-  z-index: 1;
+#elipseS {
+  transform:translate(-15.6rem,0);
 }
 
-.elipseM {
-  z-index: 2;
+#elipsePlay {
+  transform:translate(-20.6rem,0);
 }
 
-.elipseS {
-  z-index: 3;
+#video {
+  color: #ed1f34;
+  font-size: 4rem;
+  opacity: 0.65;
 }
 
-.elipsePlay {
-  z-index: 4;
+#lorem {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #999999;
 }
 
-#newest {
-  font-family: 'Yu Gothic';
+#progress {
+margin-left: -1rem;
+margin-right: -1rem;
+background-color: #444444;
 }
 
-  #video {
-    color: #ed1f34;
-    font-size: 4rem;
-    opacity: 0.65;
-  }
+#progressBar {
+ background-color: #ed1f34;
 
-  #lorem {
-    font-size: 1rem;
-    line-height: 30px;
-    color: #999999;
-  }
+}
 
 /* ----- Section n°4 ----- */
 #section4 {
-  display: flex;
-  flex-direction: column;
   margin:0;
   padding:0;
   background: url("img/faun_template_Photo_BOTTOM.png") center fixed;
   background-size: cover;
 }
 
-  #photos {
-    border-top: solid 3px #ed1f34;
-  }
-
-  .wantTo {
-    font-family: 'Yu Gothic';
+  #wantTo {
     padding-top: 80px;
     padding-bottom: 40px;
     font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: -2px;
     transform: scale(1, 1.4);
     color: #fefefe
   }
 
-  .loremm {
-    font-family: 'Yu Gothic';
+  #loremm {
     padding-top: 20px;
     padding-bottom: 80px;
     font-size: 15px;
     line-height: 30px;
-    text-align: center;
-    font-weight: bold;
     color: #999999;
   }
 
-  .contactUs {
-    font-family: 'Yu Gothic';
-    border: 30px;
+  #contactUs {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -205,32 +186,26 @@ body {
 
 /* ----- Footer ----- */
 #footer {
-  font-family: 'Yu Gothic';
-  padding-top: 100px;
-  padding-bottom: 80px;
-  line-height: 1px;
-  text-align: center;
-  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
   letter-spacing: -2px;
   transform: scale(1, 1.4);
 }
 
-  .faun {
+  #faun {
     color: #fefefe;
-    font-weight: bold;
     font-size: 30px;
-
+    margin-bottom: -1.3rem;
   }
 
-  .allRights {
+  #allRights {
     color: #444444;
     font-size: 25px;
   }
 
 /* ----- Page "noway" pour tester les liens ----- */
-.containerNoWay {
+#containerNoWay {
   background-color: #fefefe;
-  color: black;
-  text-align: center;
   margin-top: 10rem;
+  padding-bottom: 10rem;
 }
