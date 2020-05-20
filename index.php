@@ -123,9 +123,9 @@
 </div>
 
 <!-- Section 4 -->
-<div id="section4" class="vh-100 flex-column container-fluid d-flex">
+<div id="section4" class="h-100 flex-column container-fluid d-flex">
 
-  <div class="d-flex">
+  <div class="d-flex container-fluid">
     <div>
       <a href="photo1.php"><img src="img\faun_template_1.png" alt="Photo n°1" class="img-fluid"></a>
     </div>
@@ -142,7 +142,7 @@
 
   <div class="container d-flex flex-column justify-content-center">
     <p id="wantTo" class="text-uppercase text-center font-weight-bold">want to hire us ?</p>
-    <p id="loremC" class="text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p id="loremC" class="text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="d-flex justify-content-center">
       <a href="noway.php" type="button" class="btn btn-outline-light font-weight-bold text-uppercase"><span id="contactUs">contact with us</span></a>
     </div>

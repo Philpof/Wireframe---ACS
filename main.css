@@ -1,3 +1,6 @@
+:root {
+font-size: 6px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -63,20 +66,21 @@ body {
 
 /* ----- Section n°1 ----- */
 #section1 {
-  background-image: url("img/faun_template_BG_TOP.png"), url("img/faun_template_Photo_TOP.png");
+  background-image: url("img/faun_template_BG_TOP_Final.png");
   background-size: cover;
-  background-position: center fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 40rem;
+  padding-bottom: 15rem;
 }
 
 #musicMore {
- padding-top: 12rem;
+ padding-top: 10rem;
+ padding-bottom: 1rem;
 }
 
 #safe {
   color: #999999;
-  font-size: 4rem;
+  font-size: 6rem;
   line-height: 6rem;
 }
 
@@ -116,8 +120,7 @@ body {
 }
 
 #about {
-
-  margin-right: 10rem;
+  margin-right: 5rem;
 }
 
 #aboutUs {
@@ -143,7 +146,6 @@ body {
   opacity: 0.2;
   margin-top: -5rem;
   margin-bottom: -23rem;
-  margin-left: 32rem;
 }
 
 #imgConcert{
@@ -217,13 +219,15 @@ background-color: #444444;
 
 /* ----- Section n°4 ----- */
 #section4 {
-  padding:0;
-  background: url("img/faun_template_Photo_BOTTOM.png") center fixed;
+  background: url("img/faun_template_Photo_BOTTOM.png") fixed;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 15rem;
 }
 
   #wantTo {
-    padding-top: 5rem;
+    padding-top: 15rem;
     padding-bottom: 1.5rem;
     font-size: 3rem;
     color: #fefefe
@@ -233,7 +237,7 @@ background-color: #444444;
     padding-top: 0.5rem;
     padding-bottom: 3rem;
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #999999;
   }
 
@@ -264,4 +268,36 @@ background-color: #444444;
   background-color: #fefefe;
   margin-top: 10rem;
   padding-bottom: 10rem;
+}
+
+@media (min-width: 576px) {
+  :root {
+  font-size: 8px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  :root {
+  font-size: 10px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  :root {
+  font-size: 12px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  :root {
+  font-size: 14px;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
 }
