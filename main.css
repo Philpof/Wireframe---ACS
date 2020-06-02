@@ -66,7 +66,7 @@ body {
 
 /* ----- Section n°1 ----- */
 #section1 {
-  background-image: url("img/faun_template_BG_TOP_Final.png");
+  background-image: url("img/faun_template_BG_TOP_Final.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body {
 
 /* ----- Section n°3 ----- */
 #section3 {
-  background: url("img/faun_template_Main photo BG_VIDEO.png");
+  background: url("img/faun_template_Main photo BG_VIDEO.webp");
   background-size: cover;
   background-position: center fixed;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ background-color: #444444;
 
 /* ----- Section n°4 ----- */
 #section4 {
-  background: url("img/faun_template_Photo_BOTTOM.png") fixed;
+  background: url("img/faun_template_Photo_BOTTOM.webp") fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

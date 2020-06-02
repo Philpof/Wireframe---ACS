@@ -12,7 +12,7 @@
 
     <div class="dropdown">
       <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="img/faun_template_3TRAITS.png" alt="Menu">
+        <img src="img/faun_template_3TRAITS.webp" alt="Menu">
       </button>
       <div class="dropdown-menu"  >
         <a class="dropdown-item" href="index.php#section1">Us</a>
@@ -26,7 +26,7 @@
 
     <div class="dropdown">
       <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="img/faun_template_LOUPE.png" alt="Recherche">
+        <img src="img/faun_template_LOUPE.webp" alt="Recherche">
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <form class="form-inline">
@@ -86,7 +86,7 @@
 
     <div class="container col col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
       <div id="abo" class="font-weight-bold text-uppercase">abo</div>
-      <img src="img/faun_template_Photo_ABOUTUS.png" alt="Photo Concert" class="img-fluid" id="imgConcert">
+      <img src="img/faun_template_Photo_ABOUTUS.webp" alt="Photo Concert" class="img-fluid" id="imgConcert">
       <div id="concert" class="font-weight-bold text-uppercase">concert</div>
     </div>
 
@@ -98,10 +98,10 @@
 <div id="section3" class="d-flex vh-100 container-fluid">
 
   <div id="player" class="container col-3 d-flex justify-content-center">
-    <a href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img src="img/faun_template_Player.png" alt="Play" id="elipsePlay"></a>
-    <img src="img/faun_template_ElipseL.png" alt="Elipse Large" id="elipseL">
-    <img src="img/faun_template_ElipseM.png" alt="Elipse Medium" id="elipseM">
-    <img src="img/faun_template_ElipseS.png" alt="Elips Small" id="elipseS">
+    <a href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img src="img/faun_template_Player.webp" alt="Play" id="elipsePlay"></a>
+    <img src="img/faun_template_ElipseL.webp" alt="Elipse Large" id="elipseL">
+    <img src="img/faun_template_ElipseM.webp" alt="Elipse Medium" id="elipseM">
+    <img src="img/faun_template_ElipseS.webp" alt="Elips Small" id="elipseS">
   </div>
 
   <div class="container d-flex col- flex-column justify-content-center font-weight-bold">
@@ -127,16 +127,16 @@
 
   <div class="d-flex container-fluid">
     <div>
-      <a href="photo1.php"><img src="img/faun_template_1.png" alt="Photo n°1" class="img-fluid"></a>
+      <a href="photo1.php"><img src="img/faun_template_1.webp" alt="Photo n°1" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo2.php"><img src="img/faun_template_2.png" alt="Photo n°2" class="img-fluid"></a>
+      <a href="photo2.php"><img src="img/faun_template_2.webp" alt="Photo n°2" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo3.php"><img src="img/faun_template_3.png" alt="Photo n°3" class="img-fluid"></a>
+      <a href="photo3.php"><img src="img/faun_template_3.webp" alt="Photo n°3" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo4.php"><img src="img/faun_template_4.png" alt="Photo n°4" class="img-fluid"></a>
+      <a href="photo4.php"><img src="img/faun_template_4.webp" alt="Photo n°4" class="img-fluid"></a>
     </div>
   </div>
 
