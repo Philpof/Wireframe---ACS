@@ -12,7 +12,7 @@
 
     <div class="dropdown">
       <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="img\faun_template_3TRAITS.png" alt="Menu">
+        <img src="img/faun_template_3TRAITS.png" alt="Menu">
       </button>
       <div class="dropdown-menu"  >
         <a class="dropdown-item" href="index.php#section1">Us</a>
@@ -22,11 +22,11 @@
       </div>
     </div>
 
-    <a href="index.php#section4" type="button" class="btn text-center font-weight-bold text-uppercase" id="faunNav">faun</a>
+    <a href="index.php#section4" class="btn text-center font-weight-bold text-uppercase" id="faunNav">faun</a>
 
     <div class="dropdown">
       <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="img\faun_template_LOUPE.png" alt="Recherche">
+        <img src="img/faun_template_LOUPE.png" alt="Recherche">
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <form class="form-inline">
@@ -57,7 +57,7 @@
     </h1>
 
     <div class="d-flex">
-      <a href="noway.php" type="button" class="btn btn-outline-light font-weight-bold text-center"><span id="viewMore">view more</span></a>
+      <a href="noway.php" class="btn btn-outline-light font-weight-bold text-center"><span id="viewMore">view more</span></a>
     </div>
 
   </div>
@@ -77,8 +77,8 @@
         <div id="outUs">out us</div>
         <div id="about" class="container-fluid">
             <p id="aboutUs" class="d-flex">about us</p>
-            <p id="loremA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="noway.php" type="button" class="btn btn-outline-secondary font-weight-bold mb-5 "><span id="checkOur">check our tour</span></a>
+            <p id="loremA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="noway.php" class="btn btn-outline-secondary font-weight-bold mb-5 "><span id="checkOur">check our tour</span></a>
         </div>
         </div>
       </div>
@@ -86,7 +86,7 @@
 
     <div class="container col col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
       <div id="abo" class="font-weight-bold text-uppercase">abo</div>
-      <img src="img\faun_template_Photo_ABOUTUS.png" alt="Photo Concert" class="img-fluid" id="imgConcert">
+      <img src="img/faun_template_Photo_ABOUTUS.png" alt="Photo Concert" class="img-fluid" id="imgConcert">
       <div id="concert" class="font-weight-bold text-uppercase">concert</div>
     </div>
 
@@ -127,24 +127,24 @@
 
   <div class="d-flex container-fluid">
     <div>
-      <a href="photo1.php"><img src="img\faun_template_1.png" alt="Photo n°1" class="img-fluid"></a>
+      <a href="photo1.php"><img src="img/faun_template_1.png" alt="Photo n°1" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo2.php"><img src="img\faun_template_2.png" alt="Photo n°2" class="img-fluid"></a>
+      <a href="photo2.php"><img src="img/faun_template_2.png" alt="Photo n°2" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo3.php"><img src="img\faun_template_3.png" alt="Photo n°3" class="img-fluid"></a>
+      <a href="photo3.php"><img src="img/faun_template_3.png" alt="Photo n°3" class="img-fluid"></a>
     </div>
     <div>
-      <a href="photo4.php"><img src="img\faun_template_4.png" alt="Photo n°4" class="img-fluid"></a>
+      <a href="photo4.php"><img src="img/faun_template_4.png" alt="Photo n°4" class="img-fluid"></a>
     </div>
   </div>
 
   <div class="container d-flex flex-column justify-content-center">
     <p id="wantTo" class="text-uppercase text-center font-weight-bold">want to hire us ?</p>
-    <p id="loremC" class="text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p id="loremC" class="text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="d-flex justify-content-center">
-      <a href="noway.php" type="button" class="btn btn-outline-light font-weight-bold text-uppercase"><span id="contactUs">contact with us</span></a>
+      <a href="noway.php" class="btn btn-outline-light font-weight-bold text-uppercase"><span id="contactUs">contact with us</span></a>
     </div>
   </div>
 
@@ -153,7 +153,7 @@
 
 <!-- Footer -->
 <div id="footer" class="d-flex container-fluid flex-column text-uppercase text-center">
-  <a href="#section1" type="button" class="btn font-weight-bold" id="faun">faun</a>
+  <a href="#section1" class="btn font-weight-bold" id="faun">faun</a>
   <div id="allRights">all rights reserved by faun template for rock band</div>
 </div>
 
