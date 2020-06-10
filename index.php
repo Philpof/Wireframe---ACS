@@ -97,19 +97,21 @@
 <!-- Section 3 -->
 <div id="section3" class="d-flex vh-100 container-fluid">
 
+
   <div id="player" class="container col-3 d-flex justify-content-center">
-    <a href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img src="img/faun_template_Player.webp" alt="Play" id="elipsePlay"></a>
+    <a id="playClic" href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img id="elipsePlay" src="img/faun_template_Player.webp" alt="Play"><img id="elipsePlayRed" src="img/faun_template_PlayerRed.webp" alt="Play"></a>
+
     <img src="img/faun_template_ElipseL.webp" alt="Elipse Large" id="elipseL">
     <img src="img/faun_template_ElipseM.webp" alt="Elipse Medium" id="elipseM">
     <img src="img/faun_template_ElipseS.webp" alt="Elips Small" id="elipseS">
   </div>
 
-  <div class="container d-flex col- flex-column justify-content-center font-weight-bold pl-5">
+  <div class="container col-6 d-flex flex-column justify-content-center font-weight-bold pl-5">
     <p id="video" class="text-uppercase ">our newest video</p>
     <p id="loremB">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
 
-  <div class="icon-bar col-4 d-flex flex-column">
+  <div class="icon-bar col-3 d-flex flex-column">
     <a href="#section1" class="effetBar">1</a>
     <a href="#section2" class="effetBar">2</a>
     <a href="#section3" class="effetBar">3</a>
@@ -125,7 +127,7 @@
 <!-- Section 4 -->
 <div id="section4" class="h-100 flex-column container-fluid d-flex">
 
-  <div class="d-flex container-fluid">
+  <div id="barrePhotos" class="container-fluid flex-row d-flex">
     <div>
       <a href="photo1.php"><img src="img/faun_template_1.webp" alt="Photo n°1" class="img-fluid"></a>
     </div>

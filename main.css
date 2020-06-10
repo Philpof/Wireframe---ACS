@@ -149,11 +149,12 @@ body {
   opacity: 0.2;
   margin-top: -5rem;
   margin-bottom: -23rem;
-  padding-left: 40rem;
+  margin-right: -40rem;
 }
 
 #imgConcert{
   box-shadow: 0em 0 6em grey;
+  margin-right: 15rem;
 }
 
 #concert {
@@ -181,6 +182,21 @@ body {
   position: relative;
   z-index:2;
 }
+#elipsePlayRed {
+  position: relative;
+  z-index:2;
+}
+
+#playClic img:last-child {
+  display: none;
+}
+#playClic:hover img:last-child {
+  display: block;
+}
+#playClic:hover img:first-child {
+  display: none;
+}
+
 
 #elipseL {
   position: absolute;
@@ -228,7 +244,14 @@ background-color: #444444;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 15rem;
+  padding-left: 0;
+  padding-right: 0;
 }
+
+  #barrePhotos {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   #wantTo {
     padding-top: 15rem;
