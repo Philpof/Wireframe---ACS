@@ -75,7 +75,7 @@
       <div class="row">
         <div class="container col col-md-12 col-sm-12 d-flex flex-column">
         <div id="outUs">out us</div>
-        <div id="about" class="container-fluid">
+        <div id="about" class="container-fluid ml-5">
             <p id="aboutUs" class="d-flex">about us</p>
             <p id="loremA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a href="noway.php" class="btn btn-outline-secondary font-weight-bold mb-5 "><span id="checkOur">check our tour</span></a>
@@ -104,7 +104,7 @@
     <img src="img/faun_template_ElipseS.webp" alt="Elips Small" id="elipseS">
   </div>
 
-  <div class="container d-flex col- flex-column justify-content-center font-weight-bold">
+  <div class="container d-flex col- flex-column justify-content-center font-weight-bold pl-5">
     <p id="video" class="text-uppercase ">our newest video</p>
     <p id="loremB">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
