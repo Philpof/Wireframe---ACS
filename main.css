@@ -144,12 +144,14 @@ body {
 }
 
 #abo {
+  width: 465px;
   color: #999999;
   font-size: 25rem;
   opacity: 0.2;
   margin-top: -5rem;
   margin-bottom: -23rem;
-  margin-right: -40rem;
+  margin-right: -37rem;
+  overflow: hidden;
 }
 
 #imgConcert{
@@ -228,8 +230,6 @@ body {
 }
 
 #progress {
-margin-left: -1rem;
-margin-right: -1rem;
 background-color: #444444;
 }
 
