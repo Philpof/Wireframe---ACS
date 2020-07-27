@@ -98,7 +98,7 @@
 <div id="section3" class="d-flex vh-100 container-fluid">
 
 
-  <div id="player" class="container col-3 d-flex justify-content-center">
+  <div id="player" class="col-3 d-flex justify-content-center">
     <a id="playClic" href="https://www.youtube.com/watch?v=C_ijc7A5oAc" target="_blank"><img id="elipsePlay" src="img/faun_template_Player.webp" alt="Play"><img id="elipsePlayRed" src="img/faun_template_PlayerRed.webp" alt="Play"></a>
 
     <img src="img/faun_template_ElipseL.webp" alt="Elipse Large" id="elipseL">
@@ -106,7 +106,7 @@
     <img src="img/faun_template_ElipseS.webp" alt="Elips Small" id="elipseS">
   </div>
 
-  <div class="container col-6 d-flex flex-column justify-content-center font-weight-bold pl-5">
+  <div class="col-6 d-flex flex-column justify-content-center font-weight-bold pl-5">
     <p id="video" class="text-uppercase ">our newest video</p>
     <p id="loremB">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
